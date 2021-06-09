@@ -10,7 +10,7 @@ function calculateAge () {
   } else if (AGE >= 5) {
     INFORM_RESTRICTIONS.textContent = 'You can see an G or PG movie alone.'
   } else {
-    INFORM_RESTRICTIONS.textContent = 'You're too young!'
+    INFORM_RESTRICTIONS.textContent = 'You\'re too young!'
   }
   INFORM_RESTRICTIONS.textContent += ' Thank you for verifying your age.'
 }
